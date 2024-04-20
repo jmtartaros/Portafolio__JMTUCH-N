@@ -1,0 +1,25 @@
+/*Sección Menu*/
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:  20px 0;
+}
+.menu .menu__header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.menu nav, .menu .menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.menu .contacto{
+    font-weight: bold;
+}
