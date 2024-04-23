@@ -31,12 +31,13 @@
     gap: 1rem;
 }
 .academic__courses__list .academic__courses__item__img{
-    background-color: var(--cor-footer);
+    background-color: var(--color-txt);
     display: flex;
     justify-content: center;
     align-items: center;
     width:368px;
     height: 286px;
+    border-radius: 1rem;
 }
 .academic__courses__item__img img{
     width: 192px;
@@ -45,6 +46,7 @@
 .academic__courses__list .academic__courses__item__title{
     font-size: 22px;
     font-weight: bold;
+    color: #fff;
 }
 .academic__courses__list .academic__courses__item__subtitle{
     font-size: 16px;

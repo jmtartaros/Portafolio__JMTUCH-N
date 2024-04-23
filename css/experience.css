@@ -18,11 +18,11 @@
     align-items: center;
     flex-direction: row;
     gap: 1rem;
+    border-radius: 2rem;
+    height: 408px;
+    box-shadow: 5px 5px 15px 0px rgba(0 , 0,0,0.5);
 }
-.experiencie__box:nth-child(3)
-{
-    flex-direction: row-reverse;
-}
+
 /*texto arriba de los botones*/
 .experience .experience__info-container{
     width: 368x;
@@ -38,9 +38,13 @@
     font-size: 16px;
 }
 .experience__img{
-    width: 752px;
-    height: 406px;
+    width: 500px;
+    height: 300px;
+    border-radius: 1rem;
 }
 .experience__description{
     width: 300px;
+}
+.experience__section__title,.experience__text,.experience__title{
+    color: #000;
 }
