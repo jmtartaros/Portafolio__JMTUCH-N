@@ -6,7 +6,7 @@
 @import url(' ./css/academic.css');
 @import url(' ./css/experience.css');
 @import url(' ./css/form.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Sedan:ital@0;1&display=swap');
 :root {
     --cor-de-fundo: #9370DB;
     --cor-sections: #E0E0E0;
@@ -28,6 +28,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    font-family: "sedan", sans-serif;
 }
 
 ol,
